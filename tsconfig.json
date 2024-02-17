@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "NodeNext",
+      "outDir": "dist/js",
+      "rootDir": "src",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*", "src/types/sharp-multer.d.ts"],
+    "exclude": ["node_modules", ".vscode"]
+  }
+  
